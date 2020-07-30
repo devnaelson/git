@@ -7,3 +7,4 @@
 ## GET FETCH Changes external repository
 
 - git fetch
+- git merge origin/master
