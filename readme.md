@@ -11,6 +11,8 @@
 
 ## Possible erros
 
+```nginx
+
 error: Your local changes to the following files would be overwritten by merge:{
     solution commands [
         git checkout HEAD^  xxxx,
@@ -18,3 +20,5 @@ error: Your local changes to the following files would be overwritten by merge:{
 
     ]
 }
+
+```
