@@ -3,7 +3,7 @@
 - git update-index --assume-unchanged xxxx.extension; file Changes not staged for commit modified ignore from git
 -  git update-index --no-assume-unchanged xxx; You can get the files back with
 
-## get fetch changes from external repository to local repo.
+## Get fetch changes from external repository to local repo.
 - git pull; most used
 - git fetch
 - git merge origin/master
