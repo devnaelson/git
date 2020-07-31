@@ -9,7 +9,7 @@
 - git merge origin/master
 
 
-## Possible erros
+## Possible errors
 
 ```nginx
 
