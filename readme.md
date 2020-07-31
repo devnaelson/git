@@ -4,6 +4,6 @@
 -  git update-index --no-assume-unchanged xxx; You can get the files back with
 
 ## Get fetch changes from external repository to local repo.
-- git pull; most used
+- git pull; most used, contains fetch and merge under one
 - git fetch
 - git merge origin/master
