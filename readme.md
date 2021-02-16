@@ -22,3 +22,17 @@ error: Your local changes to the following files would be overwritten by merge:{
 }
 
 ```
+
+```nginx
+git checkout --orphan <name_you_choose_for_orphan_branch> //create branch without copy of another branch
+get reset        
+git add fileName // specific files
+git commit
+Then you can run your
+git push <remote-name> <branch-name>
+
+Apply merge with master
+git checkout master
+git merge dev
+git push
+```
