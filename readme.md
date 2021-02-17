@@ -39,5 +39,8 @@ git push
 
 ```nginx
 git branch -D branch //local
+git branch -d //local
 git push origin --delete branch //repository
+git clean -d -f //delete file
+
 ```
