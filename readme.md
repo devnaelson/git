@@ -36,3 +36,8 @@ git checkout master
 git merge dev
 git push
 ```
+
+```nginx
+git branch -D branch //local
+git push origin --delete branch //repository
+```
