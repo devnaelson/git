@@ -42,5 +42,5 @@ git branch -D branch //local
 git branch -d //local
 git push origin --delete branch //repository
 git clean -d -f //delete file
-
+git reset HEAD~ //resetar o commit, funcionou para o commit mais não tinha aplicado push
 ```
