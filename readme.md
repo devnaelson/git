@@ -42,5 +42,13 @@ git branch -D branch //local
 git branch -d //local
 git push origin --delete branch //repository
 git clean -d -f //delete file
-git reset HEAD~ //resetar o commit, funcionou para o commit mais não tinha aplicado push
+git stash save //if case would like merge with another branch, but do you have modifield files
+[
+        git reset HEAD~ //resetar o commit, funcionou para o commit mais não tinha aplicado push
+        or try it 
+        git merge --no-ff --no-commit <merge-branch>
+        git reset HEAD myfile.txt
+        git checkout -- myfile.txt
+        git commit -m "merged <merge-branch>"
+]
 ```
