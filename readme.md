@@ -52,4 +52,7 @@ git stash apply --index //return file and preserve the state of files (staged vs
         git checkout -- myfile.txt
         git commit -m "merged <merge-branch>"
 ]
+
+git merge --abort //If git reports conflicts (and ONLY IF THERE ARE conflicts) you can then do:
+
 ```
