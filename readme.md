@@ -43,7 +43,8 @@ git branch -d //local
 git push origin --delete branch //repository
 git clean -d -f //delete file
 git stash save //if case would like merge with another branch, but do you have modifield files
-git stash apply --index //return file and preserve the state of files (staged vs. working), use
+git stash save pop . // step 1 return files
+git stash apply --index //step 2 return files and preserve the state of files (staged vs. working), use
 [
         git reset HEAD~ //resetar o commit, funcionou para o commit mais não tinha aplicado push
         or try it 
